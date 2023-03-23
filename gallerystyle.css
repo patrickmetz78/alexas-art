@@ -1,0 +1,27 @@
+
+.thumbnails { width:100%; height:auto; margin-bottom:28px; text-align:left; font-size:15px; line-height:16px; font-weight:normal; color:#222222; }
+.thumbnails H1 { font-size:15px; line-height:16px; font-weight:normal; color:#222222; margin-bottom:6px; }
+.thumbnails img { max-width:172px; max-height:auto; margin:0 15px 11px 0; border:1px solid #FFFFFF;}
+.thumbnails img:hover { scale: 1.2; transition: all 1s; }
+.thumbnails img:last-of-child { margin-right:0; }
+
+.sbild { position:relative; height:100%; width:100%; min-height:280px; }
+.sbild img { max-height:100%; max-width:100%; margin:auto; margin-left:0; position:absolute; top:0; left:0; bottom:0; right:0; }
+
+.uabstand { height:30px; }
+@media screen and (max-width:599px) { .uabstand { height:0; display:none; } }
+
+.pfeile { width:70px; }
+@media screen and (min-width:600px) { .pfeile { width:160px; } }
+@media screen and (max-width:599px) { .pfeile { width:0; display:none; } }
+.pfeile img { margin-right:10px; }
+
+.mpfeile { height:50px; }
+@media screen and (min-width:600px) { .mpfeile { height:0; display:none; } }
+.mpfeile img { margin-right:10px; }
+
+.bu { font-size:13px; line-height:16px; font-weight:400; color:#222222; text-align:left; }
+.bu hr { margin-top:0; margin-bottom:4px; }
+
+.nummer { font-size:13px; line-height:16px; font-weight:400; color:#9EAA9E; text-align:left; margin-right:15px; float:left;  }
+@media screen and (min-width:600px) { .nummer { width:145px; } }

@@ -1,0 +1,76 @@
+html { overflow-y: scroll; }
+body { margin:0 20px 0 20px; background-color: #FFFFFF; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+img { border:0; }
+p { margin:0; padding:0;max-width: 100%; }
+
+H1 { font-size:18px; font-style:normal; font-weight:600; color:#222222; margin:0; margin-bottom:10px; text-transform: uppercase; }
+H2 { font-size:18px; font-style:normal; font-weight:600; color:#222222; padding:0; margin:0; }
+H3 { font-size:15px; font-style:normal; font-weight:400; color:#222222; padding:0; margin:0; }
+H4 { font-size:15px; font-style:normal; font-weight:400; color:#222222; padding:0; margin:0; }
+hr { border:0; border-top:1px solid #0d4d5e; height:1px; background-color:none; margin:0; margin-top:10px; margin-bottom:20px; }
+
+a:link { color: #333333; text-decoration: none; outline:none; }
+a:visited { color: #333333; text-decoration: none; outline:none; }
+a:hover { color:#0d4d5e; text-decoration: none; outline:none; }
+a:active { color:#0d4d5e; text-decoration: none; outline:none; }
+
+.head { height:58px; position:fixed; top:0; left:0; right:0; z-index:2; background-color: rgba(255, 255, 255, 0.94); min-width:360px; }
+
+.header { font-size:35px; line-height:35px; font-style:normal; font-weight:600; color: #C1C9C1; min-width:320px; max-width:930px; text-align:left; margin:0 20px 0 20px; }
+.header H1 { font-size:35px; line-height:35px; font-style:normal; font-weight:600; padding-top:20px; margin:0; color:#0d4d5e; float:left; white-space:nowrap; }
+.header hr { border-top:3px solid #0d4d5e; margin:0; clear:both; }
+.header img { margin-top:12px; margin-right:15px; float:left; opacity:1; }
+@media screen and (min-width:600px) { .header img { margin-right:122px; opacity:0; } }
+@media screen and (max-width:360px) { .header img { margin-right:0; } }
+.header a:link { color:#0d4d5e; }
+.header a:visited { color:#0d4d5e; }
+.header a:hover { color:#C1C9C1; }
+.header a:active { color:#C1C9C1; }
+
+.navbar { position:fixed; top:58px; z-index:3; background-color: rgba(255, 255, 255, 0.94); padding:8px 6px 8px 0; display:none; }
+@media screen and (min-width:600px) { .navbar { display:block; } }
+
+.navi { display:inline-block; font-size:18px; line-height:26px; font-style: normal; font-weight:600; color:#0d4d5e; text-transform: uppercase; }
+.navi a:link { color: #0d4d5e;  }
+.navi a:visited { color: #0d4d5e;  }
+.navi a:hover { color: #C1C9C1; }
+.navi a:active { color: #C1C9C1; }
+
+.navi2 { display:inline-block; font-size:18px; line-height:26px; font-weight:600; color:#FF8C00; }
+.navi2 a:link { color: #B0BBB0;  }
+.navi2 a:visited { color: #B0BBB0;  }
+.navi2 a:hover { color: #FF8C00; }
+.navi2 a:active { color: #FF8C00; }
+
+.mainwrapper { max-width:930px; text-align:left; }
+
+.platzhalter { width:0; }
+@media screen and (min-width:600px) { .platzhalter { width:160px; } }
+
+.startbild { position:relative; height:100%; width:100%; min-height:570px; }
+.startbild img { max-height:100%; max-width:100%; margin:auto; position:absolute; top:0; left:0; bottom:0; right:0; }
+.starttext { font-size:15px; line-height:22px; font-weight:400; color:#222222; padding:10px 0 25px 0; }
+
+.text { font-size:15px; line-height:24px; font-weight:400; color:#222222; }
+@media screen and (min-width:600px) { .text { padding-left:160px; } }
+.text H1 { font-size:18px; font-weight:700; color:#222222; margin-top:0; margin-bottom:-19px; }
+.text H2 { font-size:18px; font-weight:400; color:#222222; margin-top:0; margin-bottom:-19px; }
+.text p { margin-bottom:12px; }
+.text img { margin:0; vertical-align:top; vertical-align: text-top; }
+.text hr { margin-top:0; margin-bottom:-10px; }
+.nodisplay { display:none; }
+
+.bildoben { max-height:280px; margin:0 0 15px 0; }
+.bildoben img { max-height:280px; }
+.bildunten { max-width:680px; margin:30px 0 0 0; }
+.bildunten img { max-width:100%; }
+
+.clearfix { clear:both; }
+
+.footer { font-size:13px; line-height:14px; font-weight:normal; color:#000000; text-align:left; }
+.footer hr { margin-top:0; margin-bottom:4px; border-top:1px solid #B6C0B6; }
+.footer a:link { color:#9EAA9E; }
+.footer a:visited { color:#9EAA9E; }
+.footer a:hover { color: #0d4d5e; }
+.footer a:active { color:#0d4d5e; }
+

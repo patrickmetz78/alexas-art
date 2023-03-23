@@ -1,0 +1,8 @@
+form { margin:0; padding:0; border:0; }
+input { width:100%; font-size:14px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; margin-top:2px; margin-bottom:6px; padding: 2px; }
+textarea { -webkit-appearance: none; -moz-appearance: none; appearance: none; border-radius: 0;  box-shadow:none; -webkit-border-radius:0; width:100%; 
+	font-size: 14px; font-family: monospace; margin-top:2px; margin-bottom:10px; padding: 2px; border: 1px solid #B6C0B6; resize: vertical; }
+.formdiv { width:100%; padding:0; }
+.homep { display:none; }
+.error { font-size:13px; color:#FF8C00; font-weight:400; }
+.error p {margin-top:-4px; margin-bottom:4px; }
